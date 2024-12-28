@@ -7,16 +7,16 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter1d
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.size'] = 18
-# Load real data
+# Load 1 year of real data 
 real_data = RealData('energy_dataset.csv', '2017-1-1', '2017-12-30')
 
-# Load PPO model
+# Load model
 PPO_path = os.path.join('PPO_microgrid_meta')
 env = Microgrid()
 model = PPO.load(PPO_path, env=env)
 
 # Number of episodes to run
-episode_count = 365
+episode_count = 365 # (1 year)
 reward_oa = 0
 
 # Lists to store state values for plotting
