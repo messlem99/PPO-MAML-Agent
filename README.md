@@ -11,3 +11,17 @@ To achieve Proximal Policy Optimization (PPO) with Model-Agnostic Meta-Learning 
 
 # This work was conducted in collaboration with the following authors: 
 * abdelkader.messlem@univ-tiaret.dz (Abdelkader Messlem), messlem.youcef@univ-tiaret.dz (Youcef Messlem), ahmed.safa@univ-tiaret.dz (Ahmed Safa), kouadria.selman@univ-tiaret.dz (Selman Kouadria), djafar.ould-abdeslam@uha.fr (Djaffar Ould Abdeslam)
+# Cite
+```bibtex
+@article{MESSLEM2026113222,
+title = {Meta-reinforcement learning for adaptive control of battery energy storage systems in multi-microgrids},
+journal = {Electric Power Systems Research},
+volume = {259},
+pages = {113222},
+year = {2026},
+issn = {0378-7796},
+doi = {[https://doi.org/10.1016/j.epsr.2026.113222](https://doi.org/10.1016/j.epsr.2026.113222)},
+url = {[https://www.sciencedirect.com/science/article/pii/S0378779626005158](https://www.sciencedirect.com/science/article/pii/S0378779626005158)},
+author = {Abdelkader Messlem and Youcef Messlem and Ahmed Safa and Selman Kouadria and Djaffar {Ould Abdeslam}}
+}
+```
